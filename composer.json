@@ -1,0 +1,22 @@
+{
+    "name": "kordar/yii2-phpexcel",
+    "description": "kordar phpexcel ",
+    "type": "library",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kordar",
+            "email": "572821520@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "phpoffice/phpexcel": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kordar\\phpexcel\\": ""
+        }
+    }
+}
